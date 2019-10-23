@@ -1,3 +1,11 @@
+# Mac temporary files
+**/.DS_Store
+# IDE settings
+.idea
+
+# Builded files
+cmake-build-debug
+
 # Prerequisites
 *.d
 
