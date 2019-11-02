@@ -1,8 +1,8 @@
-#ifndef PRECISEARITHMETICS_FFT_H
-#define PRECISEARITHMETICS_FFT_H
+#ifndef PRECISEARITHMETICS_KARATSUBA_H
+#define PRECISEARITHMETICS_KARATSUBA_H
 
-namespace PreciseArithmetics {
+namespace precise_arithmetics {
 
 }
 
-#endif //PRECISEARITHMETICS_FFT_H
+#endif //PRECISEARITHMETICS_KARATSUBA_H
