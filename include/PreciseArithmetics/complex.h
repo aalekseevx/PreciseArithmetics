@@ -1,10 +1,10 @@
-#ifndef PRECISEARITHMETICS_INTEGER_H
-#define PRECISEARITHMETICS_INTEGER_H
+#ifndef PRECISEARITHMETICS_COMPLEX_H
+#define PRECISEARITHMETICS_COMPLEX_H
 
-namespace PreciseArithmetics {
+namespace pa {
     class Complex {
 
     };
 }
 
-#endif //PRECISEARITHMETICS_INTEGER_H
+#endif //PRECISEARITHMETICS_COMPLEX_H

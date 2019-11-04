@@ -1,10 +1,10 @@
-#ifndef PRECISEARITHMETICS_INTEGER_H
-#define PRECISEARITHMETICS_INTEGER_H
+#ifndef PRECISEARITHMETICS_REAL_H
+#define PRECISEARITHMETICS_REAL_H
 
-namespace PreciseArithmetics {
+namespace pa {
     class Real {
 
     };
 }
 
-#endif //PRECISEARITHMETICS_INTEGER_H
+#endif //PRECISEARITHMETICS_REAL_H

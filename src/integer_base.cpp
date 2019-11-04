@@ -1,3 +1,3 @@
-namespace PreciseArithmetics {
+namespace pa {
     
 }

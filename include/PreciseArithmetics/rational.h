@@ -1,10 +1,10 @@
-#ifndef PRECISEARITHMETICS_INTEGER_H
-#define PRECISEARITHMETICS_INTEGER_H
+#ifndef PRECISEARITHMETICS_RATIONAL_H
+#define PRECISEARITHMETICS_RATIONAL_H
 
-namespace PreciseArithmetics {
+namespace pa {
     class Rational {
 
     };
 }
 
-#endif //PRECISEARITHMETICS_INTEGER_H
+#endif //PRECISEARITHMETICS_RATIONAL_H

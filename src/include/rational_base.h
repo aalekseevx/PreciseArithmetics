@@ -1,8 +1,10 @@
 #ifndef PRECISEARITHMETICS_RATIONAL_BASE_H
 #define PRECISEARITHMETICS_RATIONAL_BASE_H
 
-namespace precise_arithmetics {
-    
+namespace pa {
+    class RationalBase {
+
+    };
 }
 
 #endif //PRECISEARITHMETICS_RATIONAL_BASE_H

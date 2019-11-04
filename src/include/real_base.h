@@ -1,8 +1,10 @@
 #ifndef PRECISEARITHMETICS_REAL_BASE_H
 #define PRECISEARITHMETICS_REAL_BASE_H
 
-namespace precise_arithmetics {
-    
+namespace pa {
+    class RealBase {
+
+    };
 }
 
 #endif //PRECISEARITHMETICS_REAL_BASE_H

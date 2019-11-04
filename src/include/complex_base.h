@@ -1,8 +1,10 @@
 #ifndef PRECISEARITHMETICS_COMPLEX_BASE_H
 #define PRECISEARITHMETICS_COMPLEX_BASE_H
 
-namespace precise_arithmetics {
-    
+namespace pa {
+    class ComplexBase {
+
+    };
 }
 
 #endif //PRECISEARITHMETICS_COMPLEX_BASE_H

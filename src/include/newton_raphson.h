@@ -1,7 +1,7 @@
 #ifndef PRECISEARITHMETICS_NEWTON_RAPHSON_H
 #define PRECISEARITHMETICS_NEWTON_RAPHSON_H
 
-namespace precise_arithmetcs {
+namespace pa {
     
 }
 

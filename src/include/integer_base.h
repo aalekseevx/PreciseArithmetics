@@ -1,8 +1,10 @@
 #ifndef PRECISEARITHMETICS_INTEGER_BASE_H
 #define PRECISEARITHMETICS_INTEGER_BASE_H
 
-namespace precise_arithmetics {
-    
+namespace pa {
+    class IntegerBase {
+
+    };
 }
 
 #endif //PRECISEARITHMETICS_INTEGER_BASE_H
