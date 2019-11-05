@@ -42,6 +42,7 @@ namespace pa {
         explicit Integer(const Rational& value);
         explicit Integer(const Real& value);
         explicit Integer(const Complex& value);
+        Integer(const std::string& value, std::ios_base::fmtflags flags);
         explicit Integer(const std::string& value);
 
         explicit operator int8_t() const;
@@ -78,7 +79,12 @@ namespace pa {
         Integer& flip_bytes (size_t bytes);
     };
 
-    std::string to_string(const Integer& value);
+    std::string to_string(
+            const Integer& value,
+            char fill,
+            std::streamsize precision,
+            std::streamsize width,
+            std::ios_base::fmtflags flags);
 
     bool operator<(const Integer& left, const Integer& right);
     bool operator>(const Integer& left, const Integer& right);
@@ -107,10 +113,7 @@ namespace pa {
     Integer operator|(const Integer& left, const Integer& right);
     Integer operator^(const Integer& left, const Integer& right);
 
-    Integer abs(Integer a);
-    Integer pow(Integer base, Integer exp);
-    Integer gcd(Integer a, Integer b);
-
+    // TODO: make implementation a template
     std::istream& operator>>(std::istream& stream, Integer& buf);
     std::ostream& operator<<(std::ostream& stream, const Integer& value);
 }
