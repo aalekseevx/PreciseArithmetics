@@ -1,8 +1,0 @@
-#ifndef PRECISEARITHMETICS_FFT_H
-#define PRECISEARITHMETICS_FFT_H
-
-namespace pa {
-
-}
-
-#endif //PRECISEARITHMETICS_FFT_H
