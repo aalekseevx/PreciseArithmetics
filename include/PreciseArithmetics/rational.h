@@ -1,6 +1,7 @@
-#ifndef INC_1ST_SEMESTER_RATIONAL_H
-#define INC_1ST_SEMESTER_RATIONAL_H
+#ifndef PA_RATIONAL_H
+#define PA_RATIONAL_H
 #include <iostream>
+#include "field.h"
 #include <vector>
 #include <string>
 #include <algorithm>
@@ -8,7 +9,7 @@
 #include <limits>
 #include <string>
 
-namespace Numbers {
+namespace pa {
 
     class BigInteger: private std::vector<uint> {
     private:
@@ -324,7 +325,7 @@ namespace Numbers {
         return a.isZero() ? b : gcd(b % a, a);
     }
 
-    class Rational {
+    class Rational: public Field {
     private:
         BigInteger numerator, denominator;
         void normalize();
@@ -493,6 +494,4 @@ namespace Numbers {
     }
 }
 
-using namespace Numbers;
-
-#endif //INC_1ST_SEMESTER_RATIONAL_H
+#endif //PA_RATIONAL_H
