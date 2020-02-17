@@ -3,9 +3,6 @@
 
 #include <cstdint>
 #include <string>
-#include "PreciseArithmetics/complex.h"
-#include "PreciseArithmetics/rational.h"
-#include "PreciseArithmetics/real.h"
 #include "number_base.h"
 #include <integer_base.h>
 
@@ -26,7 +23,7 @@ namespace pa {
 
         Integer();
         Integer(const int8_t& value);
-        Integer(const int16_t& value);
+        Integer(const int16_    t& value);
         Integer(const int32_t& value);
         Integer(const int64_t& value);
         Integer(const int128_t& value);
@@ -39,9 +36,6 @@ namespace pa {
         Integer(const char& value);
         Integer(const double& value);
         Integer(const long double& value);
-        explicit Integer(const Rational& value);
-        explicit Integer(const Real& value);
-        explicit Integer(const Complex& value);
         Integer(const std::string& value, std::ios_base::fmtflags flags);
         explicit Integer(const std::string& value);
 
@@ -58,9 +52,6 @@ namespace pa {
         explicit operator char() const;
         explicit operator double() const;
         explicit operator long double() const;
-        operator Rational() const;
-        operator Real() const;
-        operator Complex() const;
 
         Integer& operator+=(const Integer& right);
         Integer& operator-=(const Integer& right);
@@ -113,7 +104,6 @@ namespace pa {
     Integer operator|(const Integer& left, const Integer& right);
     Integer operator^(const Integer& left, const Integer& right);
 
-    // TODO: make implementation a template
     std::istream& operator>>(std::istream& stream, Integer& buf);
     std::ostream& operator<<(std::ostream& stream, const Integer& value);
 }
