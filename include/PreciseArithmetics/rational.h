@@ -487,6 +487,18 @@ namespace pa {
         return !(left < right) && !(left > right);
     }
 
+    // TODO change to primary case
+    // I know this is bad
+    // I know this is bad
+    // I know this is bad
+    // Works only for integer inputs
+    std::istream& operator>>(std::istream &stream, Rational& val) {
+        BigInteger x;
+        stream >> x;
+        val = Rational(x, 1);
+        return stream;
+    }
+
     // Out operator
 
     std::ostream& operator<<(std::ostream &stream, const Rational& val) {
